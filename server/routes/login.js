@@ -27,7 +27,8 @@ app.post('/login', (req, res) => {
             return res.status(400).json({
                 ok: false,
                 err: {
-                    message: 'Usuario y/o *contraseña incorrectas'
+                    message: 'Usuario y/o *contraseña incorrectas',
+                    
                 }
             });
         }
